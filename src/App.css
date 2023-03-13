@@ -38,13 +38,13 @@ button {
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
-  text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color:#DCACE4;         
   border-radius: 10px;
   display: block;
-  width:90px;
+  width:200px;
+  height:40px;
 }
 
 button:hover {
