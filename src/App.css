@@ -1,6 +1,6 @@
 @font-face {
-  font-family:'DMSerifDisplay'
-  src: (DMSerifDisplay);
+  font-family:'DMSerifDisplay';
+  src: '../DMSerifDisplay';
 }
 
 .App {
@@ -24,6 +24,9 @@
   font-family:'DMSerifDisplay'
 }
 
+h1 {
+  font-family:'DMSerifDisplay';
+}
 .App-link {
   color: #61dafb;
 }
