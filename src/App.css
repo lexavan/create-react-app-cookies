@@ -13,7 +13,7 @@
 }
 
 .App-header {
-  background-color: #F5D4FB;
+  background-color: #DCACE4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,30 @@ h1 {
 .App-link {
   color: #61dafb;
 }
+
+
+         
+button {
+  background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+  margin: 10px;
+  
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color:#DCACE4;         
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color:#DCACE4;
+  text-decoration: none;
+}
+
 
 @keyframes App-logo-spin {
   from {
