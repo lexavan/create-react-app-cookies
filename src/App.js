@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
+import yuzu from "./yuzu.png"
 import "./App.css"
 
 class LambdaDemo extends Component {
@@ -36,7 +36,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-         
+        <img src={yuzu} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
